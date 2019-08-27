@@ -20,3 +20,6 @@ The Global.asax.cs file in the project may require additional changes to enable 
     RouteConfig.RegisterRoutes(RouteTable.Routes);
     FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
     BundleConfig.RegisterBundles(BundleTable.Bundles);
+    
+    
+    4.AreaRegistration.RegisterAllAreas();
