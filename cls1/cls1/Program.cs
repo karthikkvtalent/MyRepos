@@ -10,6 +10,20 @@ namespace cls1
     {
         static void Main(string[] args)
         {
+            int k = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = i; j < 7; j++)
+                {
+                    k = i + j;
+
+                }
+                
+
+            }
+                    Console.Write(k);
+
+            Console.ReadLine();
         }
     }
 }
