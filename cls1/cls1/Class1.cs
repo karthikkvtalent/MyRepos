@@ -8,5 +8,11 @@ namespace cls1
 {
     class Class1
     {
+        public void sem()
+        {
+            Console.WriteLine("hello");
+        }
+            
+           
     }
 }
